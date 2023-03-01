@@ -186,7 +186,6 @@ async def upload(m, bot, chat_id, dir):
                 rm-=1
                 await m.edit(f"Total: {total}\nUploaded: {up} Remaining to upload: {rm}")
     await m.unpin()
-    await bot.send_message(
        (
                         [
                 [
